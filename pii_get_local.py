@@ -65,7 +65,8 @@ else:
 lis = sampler(files_list,option)
 dataFrame = pd.DataFrame(columns = ['fileName', 'has_PII', 'PII_info']) 
 
-source = f"D:\Datasets\Vishal\PII_mining\PII_API_testing"
+# source = f"D:\Datasets\Vishal\PII_mining\PII_API_testing"
+source = f"/home/ratnakarasarma/mycontainer"
 print(f"Input dir: {source}")
 print("\n")
 print(f"set of files:")
