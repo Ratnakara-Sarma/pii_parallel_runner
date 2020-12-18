@@ -17,7 +17,8 @@ print("\n")
 print(f"took {time.time() - model_time} seconds to import libs & compile model")
 print("\n")
 
-src = f"D:\Datasets\Vishal\PII_mining\PII_API_testing"
+# src = f"D:\Datasets\Vishal\PII_mining\PII_API_testing"  
+src = f"/home/ratnakarasarma/mycontainer"
 files_list = os.listdir(src)
 
 #######################################################################
